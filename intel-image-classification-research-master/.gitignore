@@ -1,0 +1,41 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+tmp/
+temp/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Model/data heavy artifacts (keep locally if large)
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.jpg
+*.jpeg
+*.png
+seg_pred/
+!artifacts/figures/*.png
+
+# Cursor/IDE
+.cursor/
+.vscode/

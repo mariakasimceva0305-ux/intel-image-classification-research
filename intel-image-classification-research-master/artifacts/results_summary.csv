@@ -1,0 +1,6 @@
+experiment,model,val_accuracy,val_macro_f1,test_accuracy,test_macro_f1,comment,source
+resnet18_full_finetune,ResNet18 (full fine-tuning),0.933048,0.933917,0.927333,0.9283,Лучшая модель,notebook logs: sections 17/19/20
+resnet18_partial_unfreeze,ResNet18 (partial unfreeze),0.923077,0.923813,,,"Есть val-метрики, test не выгружен в логе",notebook logs: section 17
+resnet18_frozen,ResNet18 (frozen backbone),0.891738,0.893521,,,"Есть val-метрики, test не выгружен в логе",notebook logs: section 17
+deep_cnn_bn_aug,DeepCNN + BatchNorm + Augmentation,0.773029,0.774108,,,"Есть val-метрики, test не выгружен в логе",notebook logs: section 17
+small_cnn_baseline,SmallCNN,0.646724,0.645374,,,"Есть val-метрики, test не выгружен в логе",notebook logs: section 17
