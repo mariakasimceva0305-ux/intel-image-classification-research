@@ -1,0 +1,8 @@
+{
+  "run": "frozen_s42",
+  "regime": "frozen",
+  "seed": 42,
+  "best_epoch": 4,
+  "validation_macro_f1": 0.9054259065330897,
+  "seconds": 158.77870082855225
+}

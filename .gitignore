@@ -39,3 +39,9 @@ seg_pred/
 # Cursor/IDE
 .cursor/
 .vscode/
+
+data/
+*.pt
+.venv/
+__pycache__/
+.pytest_cache/

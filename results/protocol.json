@@ -1,0 +1,55 @@
+{
+  "dataset": "Intel Image Classification",
+  "classes": [
+    "buildings",
+    "forest",
+    "glacier",
+    "mountain",
+    "sea",
+    "street"
+  ],
+  "image_size": 128,
+  "batch_size": 32,
+  "epochs": 4,
+  "split_seed": 42,
+  "train_fraction": 0.35,
+  "validation_fraction": 0.15,
+  "regimes": [
+    "small_cnn",
+    "frozen",
+    "partial",
+    "full"
+  ],
+  "runs": [
+    [
+      "small_cnn",
+      42
+    ],
+    [
+      "frozen",
+      42
+    ],
+    [
+      "partial",
+      42
+    ],
+    [
+      "full",
+      42
+    ],
+    [
+      "full",
+      43
+    ],
+    [
+      "full",
+      44
+    ]
+  ],
+  "selection": "best validation macro-F1 checkpoint; no test-driven tuning",
+  "notes": [
+    "New experiment; different resolution and budget from historical README.",
+    "Full fine-tuning seed replications share the same fixed split.",
+    "Only exact byte duplicates are removed; near duplicates not exhaustively excluded."
+  ]
+}

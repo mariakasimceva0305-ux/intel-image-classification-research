@@ -1,0 +1,8 @@
+{
+  "run": "full_s43",
+  "regime": "full",
+  "seed": 43,
+  "best_epoch": 2,
+  "validation_macro_f1": 0.9209276896800631,
+  "seconds": 336.857501745224
+}

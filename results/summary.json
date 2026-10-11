@@ -1,0 +1,14 @@
+{
+  "full_finetuning_macro_f1_mean": 0.9155462805521338,
+  "full_finetuning_macro_f1_sample_sd": 0.004528779491277265,
+  "training_seeds": [
+    42,
+    43,
+    44
+  ],
+  "primary_comparison_seed": 42,
+  "validation_selected_regime": "partial",
+  "selected_test_macro_f1": 0.917195520361082,
+  "test_images": 2997,
+  "note": "Fixed data split; seed variation is not a confidence interval over datasets."
+}

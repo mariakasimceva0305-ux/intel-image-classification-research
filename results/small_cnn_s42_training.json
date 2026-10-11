@@ -1,0 +1,8 @@
+{
+  "run": "small_cnn_s42",
+  "regime": "small_cnn",
+  "seed": 42,
+  "best_epoch": 4,
+  "validation_macro_f1": 0.7044679331080883,
+  "seconds": 125.76976227760315
+}

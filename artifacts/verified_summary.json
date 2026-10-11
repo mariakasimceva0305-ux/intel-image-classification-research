@@ -1,0 +1,6 @@
+{
+  "selection": "validation-selected regime in seed-42 comparison",
+  "run": "partial_s42",
+  "test_accuracy": 0.9155822489155824,
+  "test_macro_f1": 0.917195520361082
+}

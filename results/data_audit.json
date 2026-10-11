@@ -1,0 +1,12 @@
+{
+  "raw_images": 17034,
+  "ambiguous_hashes": 13,
+  "retained_images": 17003,
+  "counts": {
+    "unused": 7003,
+    "train": 4902,
+    "test": 2997,
+    "validation": 2101
+  },
+  "exact_duplicate_policy": "deduplicate; exclude test hashes from train pool; discard conflicting-label hashes"
+}

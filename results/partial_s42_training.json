@@ -1,0 +1,8 @@
+{
+  "run": "partial_s42",
+  "regime": "partial",
+  "seed": 42,
+  "best_epoch": 2,
+  "validation_macro_f1": 0.9167322075592312,
+  "seconds": 200.22317576408386
+}
